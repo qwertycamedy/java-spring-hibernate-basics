@@ -99,12 +99,12 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                " id=" + id +
-                " age=" + age +
-                " firstName=" + firstName +
-                " middleName=" + middleName +
-                " lastName=" + lastName +
-                " email=" + email +
-                "}";
+                "\n id=" + id +
+                "\n age=" + age +
+                "\n firstName=" + firstName +
+                "\n middleName=" + middleName +
+                "\n lastName=" + lastName +
+                "\n email=" + email +
+                "\n}";
     }
 }

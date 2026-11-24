@@ -15,7 +15,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 @Configuration
 @PropertySource("classpath:/application.properties")
 public class HibernateConfig {
-    @Value("${db.Driver}")
+    @Value("${db.driver}")
     private String dbDriver;
 
     @Value("${db.url}")
